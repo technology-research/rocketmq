@@ -41,7 +41,7 @@ public class FileRegionEncoder extends MessageToByteEncoder<FileRegion> {
      * can be handled by this encoder.
      *
      * @param ctx the {@link io.netty.channel.ChannelHandlerContext} which this {@link
-     * io.netty.handler.codec.MessageToByteEncoder} belongs to
+     * io.netty.handler.codec.MessageToByteEncoder} belongs tomc
      * @param msg the message to encode
      * @param out the {@link io.netty.buffer.ByteBuf} into which the encoded message will be written
      * @throws Exception is thrown if an error occurs
